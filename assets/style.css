@@ -99,3 +99,27 @@ s{
     color: white;
     left:70px;
 }
+
+.img1:hover img{
+    content: url(./img/1.webp);
+}
+
+.img2:hover img{
+    content: url(./img/2b.webp);
+}
+
+.img3:hover img{
+    content: url(./img/3b.webp);
+}
+
+.img4:hover img{
+    content: url(./img/4.webp);
+}
+
+.img5:hover img{
+    content: url(./img/5b.webp);
+}
+
+.img6:hover img{
+    content: url(./img/6b.webp);
+}
