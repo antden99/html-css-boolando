@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    
+    font-family: sans-serif;    
 }
 img{
     max-width: 100%;
@@ -43,6 +43,11 @@ s{
     position: fixed;
     width: 100%;
     z-index: 1;
+}
+
+.site_footer{
+    height: 100px;
+    background-color: black;
 }
 
 .contenitor{
@@ -123,3 +128,13 @@ s{
 .img6:hover img{
     content: url(./img/6b.webp);
 }
+
+.contenitor_2{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    
+}
+
