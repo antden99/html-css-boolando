@@ -6,6 +6,10 @@ img{
     max-width: 100%;
 }
 
+s{
+    display: inline;
+}
+
 .container{
     display: flex;
     justify-content: center;
@@ -38,4 +42,22 @@ img{
 .site_header{
     position: fixed;
     width: 100%;
+}
+
+.contenitor{
+    display: flex;
+    padding-top: 100px;
+    gap: 30px;
+    justify-content: center;
+    
+}
+
+.product{
+    width: 460px;
+
+    
+}
+
+.color_red{
+    color: red;
 }
