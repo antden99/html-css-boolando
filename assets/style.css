@@ -42,6 +42,7 @@ s{
 .site_header{
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 .contenitor{
@@ -60,4 +61,41 @@ s{
 
 .color_red{
     color: red;
+}
+
+.heart_and_discount{
+    position: relative;
+}
+
+.heart{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    
+}
+
+.discount{
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    background-color: red;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.green{
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    background-color: green;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    left:70px;
 }
